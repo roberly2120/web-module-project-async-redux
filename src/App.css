@@ -1,38 +1,66 @@
 .App {
   text-align: center;
 }
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  border: 2px solid black;
+  padding: 2px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: rgb(116, 109, 109);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link:hover {
+  color: black;
+  background-color: lemonchiffon;
+  text-decoration: none;
+}
+.component-title-div {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.joke-button {
+  margin: 8px
+}
+.component-title {
+  margin: 8px;
+}
+.cat-component {
+  background-image: url('https://www.incimages.com/uploaded_files/image/1920x1080/getty_513189787_110007.jpg');
+  height: 800px
+}
+.app-title{
+  background-color: rgb(243, 192, 97);
+  padding: 10px
+}
+.doggy-div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#doggy-button {
+  width: 20%;
+  margin-bottom: 8px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#doggy-photo {
+  height: 400px;
+  width: auto
+}
+.zip-code-title {
+  font-size: 1.4rem;
+}
+.dog-component {
+  background: linear-gradient(#e66465, #9198e5);
+}
+.zip-component {
+  height: 200%;
+  background: linear-gradient(#7e64da, #15dd30);
+}
+.joke-component {
+  background: linear-gradient(#4cac2f, #ada640);
 }
